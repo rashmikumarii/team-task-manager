@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://team-task-manager-eight-chi.vercel.app',
+        target: 'https://team-task-manager-wupz.onrender.com',
         changeOrigin: true,
         secure: false,
       },

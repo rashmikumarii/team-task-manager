@@ -14,7 +14,7 @@ const app = express();
 
 // middleware
 app.use(cors({
-  origin: "https://your-project-name.vercel.app",
+  origin: "https://team-task-manager-eight-chi.vercel.app",
   credentials: true
 }));
 app.use(express.json());

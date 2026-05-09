@@ -13,10 +13,12 @@ dotenv.config();
 const app = express();
 
 // middleware
-app.use(cors({
-  origin: "https://team-task-manager-eight-chi.vercel.app",
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: ["https://team-task-manager-eight-chi.vercel.app"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.use((req, res, next) => {
